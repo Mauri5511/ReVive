@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReVive - Asistente Médico Virtual</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      color: #1a1a1a;
+    }
+
+    header {
+      background-color: #005288; 
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+
+    .title-group h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    .title-group p {
+      margin: 0.3rem 0 0;
+      font-size: 1.1rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .about {
+      max-width: 900px;
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      margin-bottom: 3rem;
+    }
+
+    .about h2 {
+      color: #005288;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .about ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    .about li {
+      margin-bottom: 0.5rem;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      background: #e8eef3;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .logo {
+        height: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Cambia src por el path de tu logo si es local, o URL si es externo -->
+    <img src="C:\Users\Erika Ramirez\Downloads\logorevive.jpeg" alt="Logo ReVive" class="logo" />
+    <div class="title-group">
+      <h1>ReVive</h1>
+      <p>Tu asistente médico virtual para primeros auxilios</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>¿Qué es ReVive?</h2>
+      <p>
+        ReVive es un asistente virtual inteligente especializado en primeros auxilios y orientación médica básica. Diseñado para ayudarte de forma rápida y segura con lesiones menores como:
+      </p>
+      <ul>
+        <li>Quemaduras leves</li>
+        <li>Esguinces de tobillo</li>
+        <li>Picaduras no peligrosas</li>
+        <li>Mordeduras de perro no graves</li>
+        <li>Contusiones y pequeños golpes</li>
+      </ul>
+      <p>
+        Haz clic en la burbuja del chat en la esquina inferior derecha para recibir asistencia inmediata. ReVive no reemplaza a un médico, pero puede ayudarte a saber qué hacer mientras recibes atención profesional.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 ReVive - Asistente Médico Virtual | Diseñado por Erika
+  </footer>
+
+  <!-- Scripts del chatbot Botpress -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.5/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/05/20/14/20250520142613-WH2UVIH9.js"></script>
+
+</body>
+</html>
